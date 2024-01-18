@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <title>GITHUB PORTFOLIO</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url("bgg.webp") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .box {
+      width: 450px;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 40px;
+      text-align: center;
+      margin: auto;
+      margin-top: 5%;
+      color: white;
+      font-family: 'Century Gothic', sans-serif;
+    }
+
+    .box-img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+
+    .box h1 {
+      font-size: 40px;
+      letter-spacing: 4px;
+      font-weight: 100;
+    }
+
+    .box h5 {
+      font-size: 20px;
+      letter-spacing: 3px;
+      font-weight: 100;
+    }
+
+    .box p {
+      text-align: justify;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box li {
+      display: inline-block;
+      margin: 6px;
+      list-style: none;
+    }
+
+    .box li a {
+      color: white;
+      text-decoration: none;
+      font-size: 60px;
+      transition: all ease-in-out 250ms;
+    }
+
+    .box li a:hover {
+      color: #b9b9b9;
+    }
+
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    .slider-wrapper {
+      position: relative;
+      max-width: 30rem; /* Adjusted the max-width */
+      margin: 0 auto;
+    }
+
+    .slider {
+      display: flex;
+      aspect-ratio: 16/9;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    }
+
+    .slider img {
+      flex: 1 0 200px; /* Adjusted the size of the images */
+      scroll-snap-align: start;
+      object-fit: cover;
+    }
+
+    /* Added the following style to make the text color white */
+    .about-container h1 {
+      color: white;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="pp.png" alt="" class="box-img">
+    <h1>Aldrich Wayne Sanchez</h1>
+    <h5>BSIT-MI 226 - Student</h5>
+    <p>
+      I'm a passionate individual who has recently embarked on an exciting journey into the world of programming. Eager to unravel the mysteries of coding, I find joy in crafting solutions to real-world problems through the power of technology.
+    </p>
+    <ul>
+      <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+
+  <div class="about-container">
+    <h1>My Works</h1>
+    <hr>
+    <div class="main">
+      <div class="images">
+        <img src="img/girl2.png" alt="" class="girl">
+      </div>
+      <div class="detail">
+        <section class="container">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="slide-1" src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/395419834_1018800266073599_3221955441439111712_n.jpg?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=8cd0a2&amp;_nc_eui2=AeEpSO5zvAz3IR_EUJaqZasIDVkD_ohmpXcNWQP-iGald1n9VbuPWQVTMAdjPI6jkfnKB5YmNr8S8nWQVHHpXBVz&amp;_nc_ohc=E0BR4gXXbusAX97y5s9&amp;_nc_ht=scontent.fcrk4-1.fna&amp;oh=03_AdS9XOAiAMCWPcpu6AresYyB7aWnfAF--PygNuoWYdiKtg&amp;oe=65CE57E8" />
+              <img id="slide-2" src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/378101142_1046983200069438_1305705774108969352_n.jpg?_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=8cd0a2&amp;_nc_eui2=AeEb_oyBf6XJKGNTcVxb_jTm52H0UN7EhxDnYfRQ3sSHEFCNsfl83orKcka6UgX5LhwM_mpJFJ8B89kSS-oc1LGk&amp;_nc_ohc=0uJR-hmzmoIAX8vZRaj&amp;_nc_ht=scontent.fcrk4-1.fna&amp;oh=03_AdR30xmrEtJmh67JYwfmoMDnO8gFp0LP3k40m4qgSGTE1A&amp;oe=65CE37AC" />
+              <img id="slide-3" src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/400494684_367556049037139_5060547069700070746_n.png?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=8cd0a2&amp;_nc_eui2=AeGQOyD_qW-6v8LRzi7JPkquGwJWLj9iwggbAlYuP2LCCOBfuAbBg1VmdGhWSbFOV_UgR2c8QIuy8FqEgq9OZcq2&amp;_nc_ohc=V2u-Xkg-43YAX-_oeCb&amp;_nc_ht=scontent.fcrk4-1.fna&amp;oh=03_AdSB2sq2KXnuW9anvhwJXTTU-aBiE7TDXB1RnECvCkYwPA&amp;oe=65CE64AF" />
+            </div>
+          </div>
+        </section>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-wrapper">
+        <div class="contact-form"> 
+          <h3>Send a message</h3>
+          <form>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><i"fas fa-phone"></i>+1 123 456 789</p>
+          <p><i"fas fa-envelope"></i>info@example.com</p>
+          <p><i"fas fa-map-marker-alt"></i>123 Street, City, Country</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+</body>
+</html>
